@@ -26,9 +26,13 @@
     font-family: 'Oleo Script', cursive;
     font-weight: 200;
 
+    @media screen and (min-width:1200){
+
+    }
+
     @media screen and (max-width:768px){
       font-size: 68px;
-      padding-top:25%;
+     
     }
 
     @media screen and (max-width:380px){
