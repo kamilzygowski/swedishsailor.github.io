@@ -24,11 +24,11 @@
     flex-direction: row;
 
     @media screen and (max-width:468px){
-        margin-top:0;
+        margin-top:-310px;
     }
 
     @media screen and (max-width:768px){
- 
+        margin-top:-160px;
         flex-direction: column;
     }
 
