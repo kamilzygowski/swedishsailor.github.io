@@ -24,11 +24,15 @@
     flex-direction: row;
 
     @media screen and (max-width:468px){
-        margin-top:-31%;
+        margin-top:-81%;
+    }
+
+    @media screen and (min-width:468px){
+        margin-top:-15%;
+        flex-direction: column;
     }
 
     @media screen and (max-width:768px){
-        margin-top:-16%;
         flex-direction: column;
     }
 
