@@ -24,7 +24,7 @@
     flex-direction: row;
 
     @media screen and (max-width:468px){
-
+        margin-top:0;
     }
 
     @media screen and (max-width:768px){
@@ -33,7 +33,7 @@
     }
 
     @media screen and (min-width:1500px){
-        margin-top: 23%;
+        margin-top: 36%;
     }
 }
 
