@@ -1,0 +1,83 @@
+.image {
+    //background:url("https://i.postimg.cc/8z96Q3m5/Night-Sky-BIGSIZEbiggerstars.png") no-repeat center center fixed;
+    //background: url("https://live.staticflickr.com/65535/51319760752_70570b51a2_b.jpg") no-repeat center center fixed;
+    //background: url("https://i.postimg.cc/tJk4BjzD/pexels-eberhard-grossgasteiger-2098428.jpg") no-repeat center center fixed;
+    //background: url("https://i.postimg.cc/MG34brRR/pexels-josh-sorenson-1384898.jpg") no-repeat center center fixed;
+    
+    //background: url("https://i.postimg.cc/fRG5znx8/pexels-stephan-seeber-1261728.jpg") no-repeat center center fixed;
+   // background-size: cover;
+   // background-position: center;
+
+}
+
+.image::before {
+    
+}
+
+
+.gameImg{
+   position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 27%;
+    margin-top: 1%;
+    width:45%;
+}
+
+.mainApp {
+    width: 100%;
+}
+
+.first {
+    position: absolute;
+    height: 128px;
+    width: 128px;
+    margin-top:-14.58%;
+}
+
+.second {
+    position: absolute;
+    height: 128px;
+    width: 128px;
+    margin-left:13%;
+    margin-top:-14.58%;
+}
+
+.third {
+    position: absolute;
+    height: 128px;
+    width: 128px;
+    margin-left: 26%;
+    margin-top:-14.58%;
+}
+
+.fourth {
+    position: absolute;
+    height: 128px;
+    width: 128px;
+    margin-left: 38%;
+    margin-top:-14.58%;
+}
+
+.hoverable {
+    margin-left:26%;
+}
+
+.first:hover + .extend{
+    display: block;
+    height: 320px;
+    position: relative;
+}
+
+.extend {
+    height: 120px;
+    
+}
+
+.Games:hover + .bigger{
+    height: 220px;
+
+}
+
+.bigger {
+   height: 0;
+}

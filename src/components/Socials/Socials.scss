@@ -1,0 +1,39 @@
+.expandArrow {
+    position: fixed;
+    font-size: 74px;
+    color: #0097e6;
+    z-index: 2;
+    animation: glow;
+    animation-name: arrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.expandArrow:hover {
+    color: #192a56;
+}
+
+@keyframes arrow {
+    0% {
+        font-size: 74px;
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        font-size: 108px;
+        margin-top: -21px;
+        filter: hue-rotate(90deg);
+    }
+}
+
+.expand {
+    display: block;
+}
+
+.belt {
+    width: 90px;
+    background-color: #192a56;
+    height: 260px;
+    position: fixed;
+    margin-top: -75px;
+    display: none;
+}
