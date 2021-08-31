@@ -1,6 +1,6 @@
 .about {
-    height: 640px;
-    margin-top: 15%;
+    height: 100%;
+   
     /*background: linear-gradient(
         270deg,
         rgba(116, 125, 140, 1) 0%,
@@ -21,10 +21,10 @@
         rgba(0, 0, 0, 1) 100%
     );
     display: flex;
-    flex-direction: row;
 
     @media screen and (max-width:468px){
         height:100%;
+        flex-direction: column;
     }
 
     @media screen and (min-width:468px){
@@ -37,16 +37,22 @@
         height: 100%;
     }
 
-    @media screen and (max-width:1500px){
-        flex-direction: row;
-        height: 80%;
-    }
-
-    @media screen and (min-width:1500px){
-        margin-top: 3%;
+    @media screen and (max-width:1200px){
+        flex-direction: column;
+        text-align: center;
+        padding-top: 196px;
         width:100%;
         height: 80%;
+        padding-bottom: 35px;
+        padding-left:10%;
+    }
+
+    @media screen and (min-width:1200px){
+        height: 60%;
+        padding-top: 196px;
+        width:100%;
         flex-direction: row;
+        padding-bottom: 35px;
     }
 }
 
@@ -59,13 +65,24 @@
     border: 8px double #c8d6e5;
     padding:30px;
 
-    @media screen and (max-width: 1330px){
-        margin-top: 135px;
-        height: 311px;
-    width: 293px;
+    @media screen and (max-width: 1200px){
+        margin-left: 14%;
+        margin-top: 0;
+    }
+
+    @media screen and (min-width: 1200px){
+        margin-top: 105px;
+        
     }
 
     @media screen and (max-width:768px){
+        margin-left: 18%;
+        height: 264px;
+    width: 253px;
+    margin-top: 20px;
+    }
+
+    @media screen and (max-width:500px){
         margin-left: 15px;
         height: 264px;
     width: 253px;
@@ -73,8 +90,10 @@
     }
 
     @media screen and (max-width:468px){
-        height: 214px;
-    width: 203px;
+        height: 176px;
+    width: 165px;
+    margin-left: -12%;
+    border:none;
     }
 }
 
@@ -90,13 +109,14 @@
 
     @media screen and (max-width: 1330px){
         font-size: 41px;
+        margin-top: 17%;
     }
 
     @media screen and (max-width:768px){
         font-size: 27px;
-        margin-left: 25px;
+        margin-left: -35px;
         width: 92%;
-        margin-top:162px;
+        margin-top:0;
     }
 
     @media screen and (max-width:468px){
