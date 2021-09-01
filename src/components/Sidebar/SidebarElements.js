@@ -60,9 +60,10 @@ font-weight:800;
 text-decoration: none;
 list-style:none;
 transition: 0.8s all ease;
-color: #fff;
+color: #12CBC4;
 cursor: pointer;
 margin:0 auto;
+margin-left:-20px;
 
 &:hover {
     color:#01bf71;
