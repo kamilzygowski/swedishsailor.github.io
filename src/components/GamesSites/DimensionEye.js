@@ -1,7 +1,7 @@
 import React from 'react';
-import Unity, { UnityContext } from 'react-unity-webgl';
+import Unity, { UnityContent } from 'react-unity-webgl';
 
-const unityContext = new UnityContext({
+const unityContent = new UnityContent({
     loaderUrl: 'WebDimensionEyeDEMO/Build/UnityLoader.js',
     dataUrl: 'WebDimensionEyeDEMO/Build/WebDimensionEyeDEMO.data.unityweb',
     frameworkUrl: 'WebDimensionEyeDEMO/Build/WebDimensionEyeDEMO.wasm.framework.unityweb',
@@ -11,8 +11,8 @@ const unityContext = new UnityContext({
 const DimensionEye = () => (
     
     <div id='/dimensioneye'>
-        <Unity unityContext={unityContext}
- />
+        <Unity unityContent={unityContent}
+        />
     </div>
 );
 
