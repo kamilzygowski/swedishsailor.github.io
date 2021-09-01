@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
-import {Link as LinkS} from 'react-scroll';
+import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
 background: linear-gradient(
@@ -73,6 +73,44 @@ display: none;
 }
 `;
 
+export const TitleIcon = styled.div`
+display: block;
+position: absolute;
+top:inherit;
+left:inherit;
+transform: translate(-43%, 23%);
+font-size: 52px;
+cursor: pointer;
+color: #fff;
+margin-top:-6px;
+@media screen and (max-width: 768px){
+    display: block;
+    
+}
+`;
+
+export const FakeTitleIcon = styled.div`
+display: none;
+
+@media screen and (max-width: 768px){
+    display: block;
+    position: absolute;
+top:0;
+left:0;
+transform: translate(70%, 24%);
+font-size: 46px;
+cursor: pointer;
+color: #fff;
+margin-top:-6px;
+animation: color-change 4s infinite;
+@keyframes color-change {
+    0% { color:#dfe6e9; }
+    50% { color: #a29bfe; }
+    100% { color: #dfe6e9; }
+  }
+}
+`;
+
 export const NavMenu = styled.ul`
 display:flex;
 align-items: center;
@@ -107,6 +145,7 @@ margin-top:-8px;
 
 @media screen and (max-width: 768px){
     margin-top:7px;
+    display:none;
 }
 
 &.active {

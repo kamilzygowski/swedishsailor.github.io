@@ -1,8 +1,8 @@
 import { Link} from 'react-router-dom';
 import React from 'react';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaSpa } from 'react-icons/fa';
 import styles from './PageNav.scss';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavLinks, NavMenu, NavItem } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavLinks, NavMenu, NavItem, TitleIcon, FakeTitleIcon } from './NavbarElements';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -11,8 +11,13 @@ const PageNav = ({ toggle }) => (
     <>
         <Nav>
             <NavbarContainer>
-                <MobileIcon/>
-        <NavLinks to='/' smooth={true}> Back </NavLinks>
+            <FakeTitleIcon>
+                <FaSpa/>
+            </FakeTitleIcon>
+                
+        <NavLinks className="backbtn" to='/' smooth={true}> <TitleIcon>
+                <FaSpa color="#fff" />
+                </TitleIcon> </NavLinks>
         <MobileIcon onClick={toggle}>
             <FaBars />
         </MobileIcon>
