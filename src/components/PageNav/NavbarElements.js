@@ -16,7 +16,7 @@ height: 60px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 40px;
+font-size: 43px;
 position: sticky;
 top:0;
 z-index:10;
@@ -94,11 +94,12 @@ height: 80px;
 `;
 
 export const NavLinks = styled(LinkS)`
+animation: color-change 4s infinite;
 color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 18px;
+padding: 0 42px;
 height: 100%;
 cursor: pointer;
 font-family: 'Katibeh', cursive;
@@ -113,6 +114,13 @@ margin-top:-8px;
 }
 &:hover{
     color: #12CBC4;
-    border-bottom:2px solid #12CBC4;
+    border-bottom:3px solid #12CBC4;
+    margin-top:-14px;
  }
+
+ @keyframes color-change {
+    0% { color:#dfe6e9; }
+    50% { color: #a29bfe; }
+    100% { color: #dfe6e9; }
+  }
 `;
