@@ -58,7 +58,7 @@ justify-content: center;
 font-size: 24px;
 text-decoration: none;
 list-style:none;
-transition: 0.2s ease-in-out;
+transition: 0.8s all ease;
 color: #fff;
 cursor: pointer;
 
@@ -78,7 +78,7 @@ font-size:16px;
 outline:none;
 border:none;
 cursor: pointer;
-transition: all 0.2 ease-in-out;
+transition: 0.8s all ease;
 text-decoration:none;
 
 &:hover {

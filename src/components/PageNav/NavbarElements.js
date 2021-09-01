@@ -23,6 +23,7 @@ z-index:10;
 
 @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    height: 30px;
 }
 `;
 
