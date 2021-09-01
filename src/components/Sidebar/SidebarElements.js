@@ -63,7 +63,7 @@ transition: 0.8s all ease;
 color: #12CBC4;
 cursor: pointer;
 margin:0 auto;
-margin-left:-20px;
+margin-left:27%;
 
 &:hover {
     color:#01bf71;
