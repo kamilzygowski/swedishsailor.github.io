@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../Home/Home';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { HashRouter as Router, Switch, Route} from 'react-router-dom';
 import SalveDevito from '../GamesSites/SalveDevito.js';
 import DimensionEye from '../GamesSites/DimensionEye';
 import SdHeroes from '../GamesSites/SdHeroes';
