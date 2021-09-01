@@ -104,6 +104,10 @@ cursor: pointer;
 font-family: 'Katibeh', cursive;
 margin-top:-8px;
 
+@media screen and (max-width: 768px){
+    margin-top:7px;
+}
+
 &.active {
     border-bottom: 3px solid #01bf71;
 }
