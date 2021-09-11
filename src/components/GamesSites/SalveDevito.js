@@ -2,7 +2,8 @@ import React from "react";
 
 const SalveDevito = () => (
     <div id='/salvedevito'>
-        <p> XDDDDDDDDDDDDDDD </p>
+                <h2 className="gamesTitle"> SalveDevito </h2>
+        <p class="gamesAbout"> Milion laser is a game</p>
     </div>
 );
 
