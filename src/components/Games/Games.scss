@@ -181,6 +181,10 @@
     -o-animation: fadeInAndOut 2.6s infinite alternate;
     -ms-animation: fadeInAndOut 2.6s infinite alternate;
 
+    @media screen and (max-width:740px){
+        padding-top:4%;
+    }
+
 }
 
 .gamesDescriptionText {

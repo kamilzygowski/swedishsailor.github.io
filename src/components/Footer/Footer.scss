@@ -14,23 +14,23 @@
 
 .footerText {
     margin-top:-15px;
-    font-size: 52px;
+    font-size: 59px;
     text-align: center;
     font-family: 'Katibeh', cursive;
     color:#fff;
 
     @media screen and (max-width:768px){
-      font-size: 36px;
+      font-size: 47px;
         margin-top:-12px;
     }
 
     @media screen and (max-width: 410px) {
-      font-size: 32px;
+      font-size: 43px;
       margin-top:-2.5%;
   }
 
   @media screen and (max-width:380px){
-    font-size: 29px;
+    font-size: 38px;
       margin-top:-2.5%;
   }
 }

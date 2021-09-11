@@ -68,6 +68,14 @@ z-index:3;
     
 }
 
+    @media screen and (max-width:1400px){
+        height: 1150px;
+    }
+
+    @media screen and (max-width:1000px){
+        height: 1350px;
+    }
+
 body {
     background-color: #8c7ae6;
    
@@ -131,6 +139,7 @@ z-index:3;
 
     @media screen and (max-width: 768px){
         display: block;
+        padding-top: 8%;
         
     }
 }
