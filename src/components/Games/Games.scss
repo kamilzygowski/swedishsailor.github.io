@@ -79,7 +79,7 @@
     @media screen and (max-width: 768px) {
         flex-direction: column;
         margin-top: 25px;
-        height: 820px;
+        height: 740px;
     }
 
     @media screen and (max-width: 380px) {
@@ -168,6 +168,21 @@
     font-style: italic;
 }
 
+.clickTheGames {
+    color:#fff;
+    margin:0 auto;
+    text-align: center;
+    padding-top:1%;
+    font-family: "Katibeh", cursive;
+    font-size: 37px;
+    animation: fadeInAndOut 2.6s infinite alternate;
+    -webkit-animation: fadeInAndOut 2.6s infinite alternate;
+    -moz-animation: fadeInAndOut 2.6s infinite alternate;
+    -o-animation: fadeInAndOut 2.6s infinite alternate;
+    -ms-animation: fadeInAndOut 2.6s infinite alternate;
+
+}
+
 .gamesDescriptionText {
     margin-top: -15%;
     padding-left: 31%;
@@ -210,3 +225,13 @@
 .first {
     margin-left: -269%;
 }
+
+@keyframes fadeInAndOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  

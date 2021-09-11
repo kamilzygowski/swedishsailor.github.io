@@ -19,6 +19,7 @@ const MilionLasers = () => (
     
     <div className="gamesIntro" id='/milionlasers'>
         <h2 className="gamesTitle"> Milion Lasers </h2>
+        {/*<img src="https://i.postimg.cc/s2r6PX85/ml1.png" className="gamesImg1"></img>*/}
 
         <h3 className="gamesOnMobile"> To play the game and to see all the stuff you have to display this site on your Computer :( </h3>
 

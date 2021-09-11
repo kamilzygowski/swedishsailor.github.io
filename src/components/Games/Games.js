@@ -53,7 +53,7 @@ class Games extends React.Component {
                     </Button>           
                 </div>
                 <div className="underContainer"></div>
-
+                <p className="clickTheGames"> Click the games for more info!</p>
             </section>
         )
     }
