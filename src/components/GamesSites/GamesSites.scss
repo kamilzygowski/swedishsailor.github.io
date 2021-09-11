@@ -16,6 +16,15 @@
     height: 95px;
     margin-left: 12.5%;
     font-size: 42px;
+    display: none;
+    }
+
+    @media screen and (max-width:1630px){
+        font-size: 47px;
+    }
+
+    @media screen and (max-width:1160px){
+        font-size: 36px;
     }
     
 }
@@ -23,6 +32,10 @@
 .playbutton:hover {
     background: #4cd137;
     color:#fff;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
 }
 
 .gamesIntro {
@@ -30,10 +43,19 @@
     width:100%;
     background-color: #8c7ae6;
     color:#f5f6fa;
+
+    @media screen and (max-width:760px){
+        background: linear-gradient(-45deg, #fbc531, #D980FA, #e84118, #00a8ff);
+    background-size: 400% 400%;
+    animation: gradient 9s ease infinite;
+    height: 100%;
 }
 
 body {
-    background-color: #8c7ae6;
+    background: #8c7ae6;
+
+   
+    }
 }
 
 .gamesTitle {
@@ -55,6 +77,10 @@ body {
     text-align: center;
     margin-block: 40px;
     color:#e1b12c;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
 }
 
 .gamesAbout {
@@ -63,6 +89,28 @@ body {
     width: 50%;
     margin:0 auto;
     font-family: "Katibeh", cursive;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
+
+.gamesOnMobile {
+    display: none;
+    color:#fff;
+    font-size: 43px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin:0 auto;
+    font-family: "Katibeh", cursive;
+    color: linear-gradient(-45deg, #fbc531, #D980FA, #e84118, #00a8ff);
+    animation: gradient 9s ease infinite;
+
+    @media screen and (max-width: 768px){
+        display: block;
+        
+    }
 }
 
 @keyframes gradient {

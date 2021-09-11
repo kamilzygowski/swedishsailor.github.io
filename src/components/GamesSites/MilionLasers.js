@@ -19,11 +19,15 @@ const MilionLasers = () => (
     
     <div className="gamesIntro" id='/milionlasers'>
         <h2 className="gamesTitle"> Milion Lasers </h2>
-        <p class="gamesAbout"> Milion laser is a game made in one week for Brackey's Game Jam 2021.1, ask someone for hot-seat! There are instructions below :)</p>
+
+        <h3 className="gamesOnMobile"> To play the game and to see all the stuff you have to display this site on your Computer :( </h3>
+
+        <p className="gamesAbout"> Milion laser is a game made in one week for Brackey's Game Jam 2021.1, ask someone for hot-seat! There are instructions below :)</p>
         <p className="gamesInstructions"> Instructions: <br/> 
         Moving for both players: Left - WASD, Right - ARROWS <br/>
         all you have to do is to avoid all obstacles such as lasers, space rocks, enemies bullets etc. Also collect as much coins as you can :)
          </p>
+        
         <button className="playbutton" onClick={refreshPage}>CLICK TO PLAY!</button>
         {/*<Unity unityContent={unityContent}
         />*/}

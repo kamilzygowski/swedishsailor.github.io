@@ -14,7 +14,7 @@ class App extends React.Component {
                 <Switch>
                     <Route path="/" component={Home} exact />
                     <Route path="/salvedevito" component={SalveDevito} exact/>
-                    <Route path="/milionlasers/" component={MilionLasers} exact/>
+                    <Route path="/milionlasers" component={MilionLasers} exact/>
                     <Route path="/sd-heroes" component={SdHeroes} exact/>
                     <Route path="/dimensioneye" component={DimensionEye} exact/>
                     
