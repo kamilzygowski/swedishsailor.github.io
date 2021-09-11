@@ -25,7 +25,7 @@
     @media screen and (max-width: 380px) {
         flex-direction: column;
         text-align: center;
-        padding-top: 530px;
+        padding-top: 230px;
         height: 660px;
         padding-bottom: 15px;
         padding-left: 4%;
@@ -67,7 +67,7 @@
 
     @media screen and (max-width: 2400px) and (min-width: 1680px) {
         height: 550px;
-        padding-top: 4%;
+        padding-top: 8%;
         flex-direction: row;
     }
 }
