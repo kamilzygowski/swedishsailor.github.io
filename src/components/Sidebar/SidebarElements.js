@@ -64,6 +64,7 @@ color: #12CBC4;
 cursor: pointer;
 margin:0 auto;
 text-align:center;
+margin-left:-3%;
 font-family: "Katibeh", cursive;
 
 &:hover {
