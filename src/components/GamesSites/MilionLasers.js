@@ -2,10 +2,10 @@ import React from "react";
 import Unity, { UnityContent } from 'react-unity-webgl';
 
 const unityContent = new UnityContent({
-    loaderUrl: 'WebMilionLasers/Build/UnityLoader.js',
-    dataUrl: 'WebMilionLasers/Build/WebGL.data.unityweb',
-    frameworkUrl: 'WebMilionLasers/Build/WebGL.wasm.framework.unityweb',
-    codeUrl: 'WebMilionLasers/Build/WebGL.wasm.code.unityweb',
+    loaderUrl: 'MilionLasers/Build/UnityLoader.js',
+    dataUrl: 'MilionLasers/Build/MilionLasers.data.unityweb',
+    frameworkUrl: 'MilionLasers/Build/MilionLasers.wasm.framework.unityweb',
+    codeUrl: 'MilionLasers/Build/MilionLasers.wasm.code.unityweb',
   });
 
 const MilionLasers = () => (
