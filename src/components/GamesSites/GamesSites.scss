@@ -84,6 +84,7 @@ body {
     @media screen and (max-width: 768px){
         font-size: 88px;
         padding-top: 8%;
+        display: none;
     }
 }
 
@@ -118,7 +119,7 @@ z-index:3;
 .gamesOnMobile {
     display: none;
     color:#fff;
-    font-size: 43px;
+    font-size: 52px;
     text-align: center;
     width: 80%;
     margin-left: 10%;
