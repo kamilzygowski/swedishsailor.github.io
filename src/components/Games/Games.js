@@ -30,7 +30,7 @@ class Games extends React.Component {
                             <p className="gamesDescriptionText2"> Click the image for quick demo :)</p>
                         </div>
                     </Button>
-                    <Button to="/milionlasers" className="game"><img className="gamesImg3, gamesImg" src="https://i.postimg.cc/nVv1J8v9/ml21.png" alt=""></img>
+                    <Button to="/milionlasers/" className="game"><img className="gamesImg3, gamesImg" src="https://i.postimg.cc/nVv1J8v9/ml21.png" alt=""></img>
                         <div className="gamesDescription + third">
                             <br />
                             <h3 className="gamesDescriptionHeader"> Milion Lasers </h3>
