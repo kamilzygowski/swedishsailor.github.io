@@ -1,14 +1,39 @@
 .playbutton {
-    width: 35%;
+    width: 28%;
     height: 95px;
-    margin-left: 32.5%;
+    margin-left: 35%;
     text-align: center;
-    font-size: 58px;
+    font-size: 68px;
+    background: linear-gradient(-45deg, #fbc531, #D980FA, #e84118, #00a8ff);
+    background-size: 400% 400%;
+    animation: gradient 9s ease infinite;
+    border-radius:50px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-top:15px;
+
+    @media screen and (max-width: 768px){
+        width: 75%;
+    height: 95px;
+    margin-left: 12.5%;
+    font-size: 42px;
+    }
+    
+}
+
+.playbutton:hover {
+    background: #4cd137;
+    color:#fff;
 }
 
 .gamesIntro {
-    height:90%;
+    height:100%;
     width:100%;
+    background-color: #8c7ae6;
+    color:#f5f6fa;
+}
+
+body {
+    background-color: #8c7ae6;
 }
 
 .gamesTitle {
@@ -16,11 +41,38 @@
     text-align: center;
     font-family: "Katibeh", cursive;
     margin-top: -15px;
+
+    @media screen and (max-width: 768px){
+        font-size: 88px;
+    }
+}
+
+.gamesInstructions {
+    font-size: 50px;
+    font-family: "Katibeh", cursive;
+    margin:0 auto;
+    width: 50%;
+    text-align: center;
+    margin-block: 40px;
+    color:#e1b12c;
 }
 
 .gamesAbout {
     font-size: 46px;
     text-align: center;
-
+    width: 50%;
+    margin:0 auto;
     font-family: "Katibeh", cursive;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

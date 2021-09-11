@@ -17,7 +17,13 @@ const DimensionEye = () => (
     
     <div className="gamesIntro" id='/dimensioneye'>
         <h2 className="gamesTitle"> Dimension Eye </h2>
-        <p class="gamesAbout"> Milion laser is a game</p>
+        <p className="gamesAbout"> Dimension Eye is a platformer game based on using eye power and the dexterity of the player :) </p>
+        <p className="gamesInstructions"> Instructions: <br/> 
+        Moving: A-left & D-right <br/>
+        Jumping: Space<br/>
+        Shooting: Left-mouse click <br/>
+        Special skills: Z <br/>
+         </p>
         <button className="playbutton" onClick={refreshPage}>CLICK TO PLAY!</button>
         {/*<Unity unityContent={unityContent}
         />*/}
