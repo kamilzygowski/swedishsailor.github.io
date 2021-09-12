@@ -1,4 +1,5 @@
 import React from "react";
+import YoutubeEmbed from "../YoutubeEmbed/YoutubeEmbed";
 
 const SalveDevito = () => (
     <div className="gamesIntro" id='/salvedevito'>
@@ -13,10 +14,11 @@ const SalveDevito = () => (
         at the entrance, guess what happened  {'>'}:) </p>
         </div>
         <div className="imgTextWrapper">
-        <p className="imgDesc2"> On the right image is how our game looks like in unity engine. <br/> The engine is a place where the "magic" happens and where our creativity
+        <p className="imgDesc1"> On the right image is how our game looks like in unity engine. <br/> The engine is a place where the "magic" happens and where our creativity
         is leaking out! </p>
         <img className="gamesImg2" src="https://i.postimg.cc/vB0xH8b6/salvedevito2.png"></img>
         </div>
+        <YoutubeEmbed className="ytVid" embedId="MDehYzvmEj0" />
     </div>
 );
 
