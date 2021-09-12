@@ -4,92 +4,138 @@
     margin-left: 35%;
     text-align: center;
     font-size: 68px;
-    background: linear-gradient(-45deg, #fbc531, #D980FA, #e84118, #00a8ff);
+    background: linear-gradient(-45deg, #fbc531, #d980fa, #e84118, #00a8ff);
     background-size: 400% 400%;
     animation: gradient 9s ease infinite;
-    border-radius:50px;
-    font-family: 'Luckiest Guy', cursive;
-    margin-top:15px;
-    z-index:3;
+    border-radius: 50px;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 15px;
+    z-index: 3;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         width: 75%;
-    height: 95px;
-    margin-left: 12.5%;
-    font-size: 42px;
-    display: none;
+        height: 95px;
+        margin-left: 12.5%;
+        font-size: 42px;
+        display: none;
     }
 
-    @media screen and (max-width:1630px){
+    @media screen and (max-width: 1630px) {
         font-size: 47px;
     }
 
-    @media screen and (max-width:1160px){
+    @media screen and (max-width: 1160px) {
         font-size: 36px;
     }
-    
 }
 
 .playbutton:hover {
     background: #4cd137;
-    color:#fff;
+    color: #fff;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         display: none;
     }
 }
 
-.gamesImg1 {
-    position: absolute;
-    z-index: 0;
-    opacity:0.3;
-    width:850px;
-    height: 550px;
-    margin-top: -15%;
+/* Here are all the wrappers of images and text descriptions */
 
+
+.imgTextWrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: "Katibeh", cursive;
+    border:9px double #95afc0;
+    margin-inline: 2%;
+    margin-block: 5px;
+    background-color: #c7ecee;
+    border-radius: 35px;
+
+
+.gamesImg1 {
+    z-index: 0;
+    opacity: 0.9;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    margin-block:1%;
+    margin-left:8%;
+    margin-inline-end: 4%;
+    flex:1;
+    border:2px solid #000;
 }
 
 .gamesImg2 {
-    position: absolute;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    margin-block:1%;
+    margin-inline-start:4%;
+    margin-right: 2%;
+    flex:1;
+    border:2px solid #000;
+}
+
+.imgDesc1 {
+    width:50%;
+    text-align: center;
+    margin-top:95px;
+    font-size:42px;
+    flex:1;
+    color:#000;
+    margin-right: 5%;
+}
+
+.imgDesc2 {
+    width:50%;
+    text-align: center;
+    margin-top:45px;
+    font-size:42px;
+    flex:1;
+    color:#000;
+    margin-top:95px;
+    margin-left:5%;
+}
+
 }
 
 .gamesIntro {
-    height:100%;
-    width:100%;
-    background-color: #8c7ae6;
-    color:#f5f6fa;
-z-index:3;
-
-    @media screen and (max-width:760px){
-        background: linear-gradient(-45deg, #fbc531, #D980FA, #e84118, #00a8ff);
-    background-size: 400% 400%;
-    animation: gradient 9s ease infinite;
     height: 100%;
-    
-}
+    width: 100%;
+    background-color: #8c7ae6;
+    color: #f5f6fa;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
 
-    @media screen and (max-width:1400px){
+    @media screen and (max-width: 760px) {
+        background: linear-gradient(-45deg, #fbc531, #d980fa, #e84118, #00a8ff);
+        background-size: 400% 400%;
+        animation: gradient 9s ease infinite;
+        height: 100%;
+    }
+
+    @media screen and (max-width: 1400px) {
         height: 1150px;
     }
 
-    @media screen and (max-width:1000px){
+    @media screen and (max-width: 1000px) {
         height: 1350px;
     }
 }
 
 body {
     background-color: #8c7ae6;
-   
-    }
+}
 
 .gamesTitle {
     font-size: 112px;
     text-align: center;
     font-family: "Katibeh", cursive;
     margin-top: -15px;
-    z-index:3;
-    
-    @media screen and (max-width: 768px){
+    z-index: 3;
+
+    @media screen and (max-width: 768px) {
         font-size: 88px;
         padding-top: 8%;
         display: none;
@@ -99,14 +145,14 @@ body {
 .gamesInstructions {
     font-size: 50px;
     font-family: "Katibeh", cursive;
-    margin:0 auto;
+    margin: 0 auto;
     width: 50%;
     text-align: center;
     margin-block: 40px;
-    color:#ddd5bf;
-    z-index:3;
+    color: #ddd5bf;
+    z-index: 3;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         display: none;
     }
 }
@@ -115,34 +161,34 @@ body {
     font-size: 46px;
     text-align: center;
     width: 50%;
-    margin:0 auto;
+    margin: 0 auto;
     font-family: "Katibeh", cursive;
-z-index:3;
+    z-index: 3;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         display: none;
     }
 }
 
 .gamesOnMobile {
     display: none;
-    color:#fff;
+    color: #fff;
     font-size: 52px;
     text-align: center;
     width: 80%;
     margin-left: 10%;
-    margin:0 auto;
+    margin: 0 auto;
     font-family: "Katibeh", cursive;
-    color: linear-gradient(-45deg, #fbc531, #D980FA, #e84118, #00a8ff);
+    color: linear-gradient(-45deg, #fbc531, #d980fa, #e84118, #00a8ff);
     animation: gradient 9s ease infinite;
-    z-index:3;
+    z-index: 3;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         display: block;
         padding-top: 8%;
-        
     }
 }
+
 
 @keyframes gradient {
     0% {
