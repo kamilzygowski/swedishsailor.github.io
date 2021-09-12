@@ -18,6 +18,7 @@ const DimensionEye = () => (
     <div className="gamesIntro" id='/dimensioneye'>
         <h2 className="gamesTitle"> Dimension Eye </h2>
         <p className="gamesAbout"> Dimension Eye is a platformer game based on using eye power and the dexterity of the player :) </p>
+        <h3 className="gamesOnMobile"> To play the game and to see all the stuff you have to display this site on your Computer :( </h3>
         <p className="gamesInstructions"> Instructions: <br/> 
         Moving: A-left & D-right <br/>
         Jumping: Space<br/>
@@ -25,6 +26,12 @@ const DimensionEye = () => (
         Special skills: Z <br/>
          </p>
         <button className="playbutton" onClick={refreshPage}>CLICK TO PLAY!</button>
+        <br/>
+        <br/>
+        <br/>
+        <p className="gamesAbout"> Thanks for playing! <br/>
+        <br/>
+        </p>
         {/*<Unity unityContent={unityContent}
         />*/}
     </div>

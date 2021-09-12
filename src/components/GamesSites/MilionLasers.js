@@ -28,8 +28,15 @@ const MilionLasers = () => (
         Moving for both players: Left - WASD, Right - ARROWS <br/>
         all you have to do is to avoid all obstacles such as lasers, space rocks, enemies bullets etc. Also collect as much coins as you can :)
          </p>
-        
+
         <button className="playbutton" onClick={refreshPage}>CLICK TO PLAY!</button>
+        <br/>
+        <br/>
+        <br/>
+        <p className="gamesAbout"> Thanks for playing! <br/>
+        <br/>
+         
+         </p>
         {/*<Unity unityContent={unityContent}
         />*/}
     </div>
