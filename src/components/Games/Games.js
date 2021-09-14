@@ -46,7 +46,7 @@ class Games extends React.Component {
                             <br />
                             <h3 className="gamesDescriptionHeader"> Salve Devito - Heroes </h3>
                             <img className="descriptionImg" src="https://i.postimg.cc/PqSjVGN5/window.png" alt=""></img>
-                            <p className="gamesDescriptionText"> Salve devito - heroes is a project of browser, interactive clicker game. Game is in pre-pre-alpha. More information soon :)</p>
+                            <p className="gamesDescriptionText"> Salve devito - heroes is a project of browser, interactive clicker game. Game is in pre-pre-alpha. More informations soon :)</p>
                             <p className="gamesDescriptionText2"> Click the image for more info</p>
                         </div>
                         </div>

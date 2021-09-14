@@ -26,7 +26,7 @@
 }
 
 .gamesheader {
-    border-bottom: solid 2px #ff6b6b;
+    //border-bottom: solid 2px #ff6b6b;
     margin-top: 0px;
     text-align: center;
     font-family: "Quintessential", cursive;
@@ -92,8 +92,9 @@
     height: 128px;
     margin-left: 5%;
     margin-right: 4%;
-    border: 2px solid #c8d6e5;
+    border: 3px solid #f5f6fa;
     cursor: pointer;
+    text-decoration: none;
     
     @media screen and (max-width: 768px) {
         
@@ -113,7 +114,7 @@
     z-index: 4;
     /*background: linear-gradient(90deg, rgba(52,31,151,1) 0%, rgba(52,31,151,1) 19%, rgba(52,31,151,0) 92%);*/
     //background: linear-gradient(90deg, rgba(52,31,151,1) 0%, rgba(52,31,151,1) 19%, rgba(52,31,151,1) 92%);
-    background: #D6A2E8;
+    background: #dcdde1;
     width: 1440px;
     margin-left: -742%;
     margin-top: 20px;
@@ -161,12 +162,19 @@
 }
 
 .gamesDescriptionHeader {
-    color: #000;
     font-size: 36px;
     margin-top: -0.5%;
     margin-left: 22%;
     font-family: "Merriweather", serif;
     font-style: italic;
+    font-weight: 900;
+    color:#40739e;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.gamesDescriptioninner {
+    
 }
 
 .clickTheGames {
@@ -205,7 +213,7 @@
     margin-left: 23%;
     font-weight: 1000;
     text-decoration: underline;
-    color: #58B19F;
+    color: #44bd32;
     font-size: 29px;
     font-family: "Merriweather", serif;
     font-style: italic;

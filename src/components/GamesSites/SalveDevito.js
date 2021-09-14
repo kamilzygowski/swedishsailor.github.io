@@ -1,7 +1,12 @@
 import React from "react";
 import YoutubeEmbed from "../YoutubeEmbed/YoutubeEmbed";
 
-const SalveDevito = () => (
+const scrollUp = () => {
+    window.scrollTo(0, 0)
+}
+
+const SalveDevito = () => 
+(
     <div className="gamesIntro" id='/salvedevito'>
                 <h2 className="gamesTitle"> SalveDevito </h2>
         <p className="gamesAbout"> Salve Devito is an isometric online rpg game, where you can choose what to do from huge variety of activities.</p>
@@ -18,6 +23,7 @@ const SalveDevito = () => (
         is leaking out! </p>
         <img className="gamesImg2" src="https://i.postimg.cc/vB0xH8b6/salvedevito2.png"></img>
         </div>
+        <h4 className="gamesAbout"> Here is a private video of first in game person vs person </h4>
         <YoutubeEmbed className="ytVid" embedId="MDehYzvmEj0" />
     </div>
 );

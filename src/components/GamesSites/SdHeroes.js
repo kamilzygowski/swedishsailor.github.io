@@ -12,9 +12,8 @@ const SdHeroes = () => (
 <br/>
 <br/>
 <br/>
-<p className="gamesAbout"> Let's take a look! :) <br/>
-<br/>
-</p>
+{/*<p className="gamesAbout"> Let's take a look! :)</p>*/}
+<p className="gamesAbout3"> PAGE IS UNDER CONSTRUCTION</p>
     </div>
 );
 

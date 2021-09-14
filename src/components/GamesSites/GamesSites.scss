@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: row;
     font-family: "Katibeh", cursive;
-    border:9px double #95afc0;
+    border:19px solid #95afc0;
     margin-inline: 2%;
     margin-block: 5px;
     background-color: #c7ecee;
@@ -103,30 +103,34 @@
 .gamesIntro {
     height: 100%;
     width: 100%;
-    background-color: #8c7ae6;
+    background-color: #000;
     color: #f5f6fa;
     z-index: 3;
     display: flex;
     flex-direction: column;
 
     @media screen and (max-width: 760px) {
-        background: linear-gradient(-45deg, #fbc531, #d980fa, #e84118, #00a8ff);
-        background-size: 400% 400%;
-        animation: gradient 9s ease infinite;
+       background: inherit;
         height: 100%;
     }
 
     @media screen and (max-width: 1400px) {
-        height: 1150px;
+        
     }
 
     @media screen and (max-width: 1000px) {
-        height: 1350px;
+        
     }
 }
 
 body {
     background-color: #8c7ae6;
+
+    @media screen and (max-width: 760px) {
+        background: linear-gradient(-45deg, #fbc531, #d980fa, #e84118, #00a8ff);
+        background-size: 400% 400%;
+        animation: gradient 9s ease infinite;
+    }
 }
 
 .gamesTitle {
@@ -152,6 +156,8 @@ body {
     margin-block: 40px;
     color: #ddd5bf;
     z-index: 3;
+    background: #192a56;
+    border-radius: 50px;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -165,10 +171,71 @@ body {
     margin: 0 auto;
     font-family: "Katibeh", cursive;
     z-index: 3;
+    background: #192a56;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    margin-top:1%;
 
     @media screen and (max-width: 768px) {
         display: none;
     }
+}
+
+.gamesAboutML {
+    font-size: 46px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Katibeh", cursive;
+    z-index: 3;
+    background: #44bd32;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    margin-top:1%;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.gamesInstructionsML {
+    font-size: 50px;
+    font-family: "Katibeh", cursive;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-block: 40px;
+    color: #ddd5bf;
+    z-index: 3;
+    background: #44bd32;
+    border-radius: 50px;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.gamesAbout2 {
+    font-size: 46px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Katibeh", cursive;
+    z-index: 3;
+    border-radius: 50px;
+
+}
+
+.gamesAbout3 {
+    font-size: 46px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Katibeh", cursive;
+    z-index: 3;
+    border-radius: 50px;
+    color:red;
+    background: #192a56;
 }
 
 .gamesOnMobile {
