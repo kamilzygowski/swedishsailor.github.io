@@ -51,6 +51,10 @@
     background-color: #c7ecee;
     border-radius: 35px;
 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
 
 .gamesImg1 {
     z-index: 0;
@@ -98,6 +102,9 @@
 
 .ytVid {
 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 }
 
 .gamesIntro {
@@ -224,6 +231,10 @@ body {
     z-index: 3;
     border-radius: 50px;
 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
 }
 
 .gamesAbout3 {
@@ -236,6 +247,10 @@ body {
     border-radius: 50px;
     color:red;
     background: #192a56;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 }
 
 .gamesOnMobile {

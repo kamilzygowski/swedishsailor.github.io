@@ -27,7 +27,7 @@
 
 .gamesheader {
     //border-bottom: solid 2px #ff6b6b;
-    margin-top: 0px;
+    margin-top: 10px;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     font-size: 36px;
@@ -48,8 +48,8 @@
 
 .gamesheader {
     color: #fff;
-    text-shadow: 0 0 15px yellow, 0 0 25px yellow;
-    animation: glow 3s linear infinite;
+    text-shadow: 0 0 5px blue, 0 0 10px white;
+    animation: glow 6s linear infinite;
 
     @media screen and (max-width: 768px) {
         border-bottom: none;
