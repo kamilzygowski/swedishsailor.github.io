@@ -9,6 +9,10 @@ background:#232a34;
 position:fixed;
 object-fit:cover;
 margin-top:14px;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
 `;
 
 export const VideoBackgroundDE = styled.video`
@@ -20,4 +24,8 @@ background:#232a34;
 position:fixed;
 margin-top:-64px;
 background-position: top;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
 `;
