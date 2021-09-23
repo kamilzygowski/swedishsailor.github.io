@@ -23,8 +23,8 @@ const SalveDevito = () =>
         is leaking out! </p>
         <img className="gamesImg2" src="https://i.postimg.cc/vB0xH8b6/salvedevito2.png"></img>
         </div>
-        <h4 className="gamesAbout"> Here is a private video of first in game person vs person </h4>
-        <YoutubeEmbed className="ytVid" embedId="MDehYzvmEj0" />
+        {/*<h4 className="gamesAbout"> Here is a private video of first in game person vs person </h4>
+        <YoutubeEmbed className="ytVid" embedId="MDehYzvmEj0" />*/}
     </div>
 );
 
