@@ -18,8 +18,8 @@ class App extends React.Component {
                     <Route path="/milionlasers" component={MilionLasers} exact/>
                     <Route path="/sd-heroes" component={SdHeroes} exact/>
                     <Route path="/dimensioneye" component={DimensionEye} exact/>
-                    <Route path="/type" exact/>
-                    <Route path="/multiarena" exact/>
+                    <Route path="/type"/>
+                    <Route path="/multiarena"/>
                     
                 </Switch>
             </Router>
