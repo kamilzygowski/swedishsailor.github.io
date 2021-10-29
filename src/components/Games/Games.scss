@@ -17,11 +17,11 @@
     margin-top: -45px;
 
     @media screen and (max-width: 768px) {
-        height: 960px;
+        height: 1410px;
     }
 
     @media screen and (max-width: 380px) {
-        height: 960px;
+        height: 1410px;
     }
 }
 
@@ -80,7 +80,7 @@
     @media screen and (max-width: 768px) {
         flex-direction: column;
         margin-top: 25px;
-        height: 740px;
+        height: 1180px;
     }
 
     @media screen and (max-width: 380px) {
@@ -91,8 +91,8 @@
 .game {
     width: 128px;
     height: 128px;
-    margin-left: 5%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
     border: 3px solid #f5f6fa;
     cursor: pointer;
     text-decoration: none;

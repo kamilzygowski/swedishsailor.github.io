@@ -26,7 +26,7 @@
         flex-direction: column;
         text-align: center;
         padding-top: 230px;
-        height: 660px;
+        height: 750px;
         padding-bottom: 15px;
         padding-left: 4%;
     }
@@ -35,7 +35,7 @@
         flex-direction: column;
         text-align: center;
         padding-top: 510px;
-        height: 460px;
+        height: 780px;
         padding-bottom: 15px;
         padding-left: 4%;
     }
@@ -43,7 +43,7 @@
     @media screen and (max-width: 768px) and (min-width: 500px) {
         flex-direction: column;
         text-align: center;
-        padding-top: 670px;
+        padding-top: 970px;
         height: 660px;
         padding-bottom: 15px;
         padding-left: 4%;
@@ -52,8 +52,8 @@
     @media screen and (max-width: 1200px) and (min-width: 768px) {
         flex-direction: row;
         text-align: center;
-        padding-top: 296px;
-        height: 660px;
+        padding-top: 970px;
+        height: 560px;
         padding-bottom: 35px;
         padding-left: 4%;
     }

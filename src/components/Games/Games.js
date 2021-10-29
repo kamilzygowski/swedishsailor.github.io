@@ -50,7 +50,31 @@ class Games extends React.Component {
                             <p className="gamesDescriptionText2"> Click the image for more info</p>
                         </div>
                         </div>
-                    </Button>           
+                    </Button>  
+                    <Button to="/type" className="game"><img className="gamesImg4, gamesImg" src="https://i.postimg.cc/KzM4jbh6/Space-Stars8.png" alt=""></img>
+                    <div className="gamesDescription">
+                        <div className="gamesDescriptioninner">
+                            <br />
+                            <h3 className="gamesDescriptionHeader"> Type Game </h3>
+                            <img className="descriptionImg" src="https://i.postimg.cc/5NVzsMFF/tajp.png" alt=""></img>
+                            <p className="gamesDescriptionText"> Just dance in the cosmos </p>
+                            <p className="gamesDescriptionText2"> Click the image for more info</p>
+                        </div>
+                        </div>
+                    </Button>  
+                    <Button to="/multiarena" className="game"><img className="gamesImg4, gamesImg" src="https://i.postimg.cc/GtRW52Cf/multiarena-Logo.png" alt=""></img>
+                    <div className="gamesDescription">
+                        <div className="gamesDescriptioninner">
+                            <br />
+                            <h3 className="gamesDescriptionHeader"> Multi Arena </h3>
+                            <img className="descriptionImg" src="https://i.postimg.cc/2jXdGt7Q/ma.png" alt=""></img>
+                            <p className="gamesDescriptionText"> 1 versus 1 online game. Create a game, send link to your friend and play! </p>
+                            <br />
+                            <br />
+                            <p className="gamesDescriptionText2"> Click the image for more info</p>
+                        </div>
+                        </div>
+                    </Button>         
                 </div>
                 <div className="underContainer"></div>
                 <p className="clickTheGames"> Click the games for more info!</p>
