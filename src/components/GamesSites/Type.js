@@ -1,12 +1,16 @@
 import React from "react";
+import { VideoBackgroundDE } from './GamesSitesElements';
+import Video from "../../videos/stars.mp4"
 
 function refreshPage() {
     window.location.reload(false);
   }
 
+  
 const Type = () => (
     <div className="gamesIntro2" id='/type'>
-        <h2 className="gamesTitle"> Type Game </h2>
+        <VideoBackgroundDE autoPlay loop muted src={Video} type='video/mp4' margin-top='-22px' className="multiArenaBackground"/>
+        <h2 className="gamesTitle multiArenaTitle"> Type Game </h2>
         <p className="gamesAbout"> Let's test your dexterity</p>
         
         <h3 className="gamesOnMobile"> To play the game and to see all the stuff you have to display this site on your Computer :( </h3>
