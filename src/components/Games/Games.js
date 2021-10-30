@@ -41,7 +41,7 @@ class Games extends React.Component {
                         </div>
                     </Button>
                     <Button to="/sd-heroes" className="game"><img className="gamesImg4, gamesImg" src="https://i.postimg.cc/8PPHhrB4/Skull-avatar.png" alt=""></img>
-                    <div className="gamesDescription">
+                    <div className="gamesDescription + fourth">
                         <div className="gamesDescriptioninner">
                             <br />
                             <h3 className="gamesDescriptionHeader"> Salve Devito - Heroes </h3>
@@ -52,7 +52,7 @@ class Games extends React.Component {
                         </div>
                     </Button>  
                     <Button to="/type" className="game"><img className="gamesImg4, gamesImg" src="https://i.postimg.cc/KzM4jbh6/Space-Stars8.png" alt=""></img>
-                    <div className="gamesDescription">
+                    <div className="gamesDescription + fifth">
                         <div className="gamesDescriptioninner">
                             <br />
                             <h3 className="gamesDescriptionHeader"> Type Game </h3>
@@ -63,7 +63,7 @@ class Games extends React.Component {
                         </div>
                     </Button>  
                     <Button to="/multiarena" className="game"><img className="gamesImg4, gamesImg" src="https://i.postimg.cc/GtRW52Cf/multiarena-Logo.png" alt=""></img>
-                    <div className="gamesDescription">
+                    <div className="gamesDescription + sixth">
                         <div className="gamesDescriptioninner">
                             <br />
                             <h3 className="gamesDescriptionHeader"> Multi Arena </h3>
