@@ -57,7 +57,7 @@ class Games extends React.Component {
                             <br />
                             <h3 className="gamesDescriptionHeader"> Type Game </h3>
                             <img className="descriptionImg" src="https://i.postimg.cc/5NVzsMFF/tajp.png" alt=""></img>
-                            <p className="gamesDescriptionText"> Just dance in the cosmos </p>
+                            <p className="gamesDescriptionText3"> Just dance in the cosmos </p>
                             <p className="gamesDescriptionText2"> Click the image for more info</p>
                         </div>
                         </div>

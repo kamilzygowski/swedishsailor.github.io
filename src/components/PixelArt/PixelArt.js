@@ -27,6 +27,9 @@ class PixelArt extends React.Component {
                             <img className="carouselImg" src="https://i.postimg.cc/zBywpMh5/kamien.png" alt=""></img>
                         </div>
                         <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/3JfwsSWH/north-sorc.gif" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/K86zWfqn/sd-tp.gif" alt=""></img>
                         </div>
                         <div className="carouselDiv">
@@ -51,6 +54,9 @@ class PixelArt extends React.Component {
                             <img className="carouselImg" src="https://i.postimg.cc/QxZr17dw/kamyczki.png" alt=""></img>
                         </div>
                         <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/NMvFNKF9/treasure.gif" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/c4DtFQGm/lampkanascienna.gif" alt=""></img>
                         </div>
                         <div className="carouselDiv">
@@ -62,6 +68,22 @@ class PixelArt extends React.Component {
                         <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/mk2VdqzB/DE-Brick-Spikes4.png" alt=""></img>
                         </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/D0gS472W/Space-Rock-3.png" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/jdxw0nXy/floating-Enemy.gif" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/vH01Q8qk/shoot-Explode.gif" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/t47s708T/waves.gif" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/J01nLSbR/south-old-sorc.gif" alt=""></img> 
+                        </div>
+
                     </Carousel>
                 </div>
             </section>

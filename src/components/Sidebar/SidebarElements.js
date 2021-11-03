@@ -44,6 +44,7 @@ display:grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(7, 105px);
 text-align: center;
+margin:auto auto;
 
 @media screen and (max-width: 480px){
     grid-template-rows: repeat (6, 80px);
@@ -62,9 +63,9 @@ list-style:none;
 transition: 0.8s all ease;
 color: #12CBC4;
 cursor: pointer;
-margin:0 auto;
+margin:auto auto;
 text-align:center;
-margin-left:22%;
+
 font-family: "Katibeh", cursive;
 
 &:hover {
