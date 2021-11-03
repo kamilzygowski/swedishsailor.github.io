@@ -45,11 +45,12 @@
     display: flex;
     flex-direction: row;
     font-family: "Katibeh", cursive;
-    border:19px solid #95afc0;
+    //border:19px solid #95afc0;
     margin-inline: 2%;
     margin-block: 5px;
-    background-color: #c7ecee;
+    //background-color: #c7ecee;
     border-radius: 35px;
+    
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -59,33 +60,41 @@
 .gamesImg1 {
     z-index: 0;
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     margin-block:1%;
     margin-left:8%;
     margin-inline-end: 4%;
     flex:1;
     border:2px solid #000;
+    position: absolute;
+    opacity: 0.32;
+    top:5px;
+    left:-65px;
 }
 
 .gamesImg2 {
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     margin-block:1%;
     margin-inline-start:4%;
     margin-right: 2%;
     flex:1;
     border:2px solid #000;
+    position: absolute;
+    opacity: 0.32;
+    top:355px;
+    right:2px;
 }
 
 .imgDesc1 {
     width:50%;
     text-align: center;
-    margin-top:95px;
+
     font-size:42px;
     flex:1;
-    color:#000;
+    color:#fff;
     margin-right: 5%;
 }
 
@@ -95,9 +104,9 @@
     margin-top:45px;
     font-size:42px;
     flex:1;
-    color:#000;
-    margin-top:95px;
+    color:#fff;
     margin-left:5%;
+    padding-bottom:50px;
 }}
 
 .ytVid {
@@ -154,6 +163,21 @@ body {
     }
 }
 
+.gamesTitle2 {
+    font-size: 112px;
+    text-align: center;
+    font-family: "Katibeh", cursive;
+    margin-top: -15px;
+    z-index: 3;
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 88px;
+        padding-top: 8%;
+        display: none;
+    }
+}
+
 .multiArenaTitle{
     color:#D980FA;
 }
@@ -176,7 +200,7 @@ body {
     margin-block: 40px;
     color: #ddd5bf;
     z-index: 3;
-    background: rgba(71, 112, 237, 0.59);
+    background: rgba(240, 83, 122, 0.305);
     border-radius: 50px;
 
     @media screen and (max-width: 768px) {
@@ -191,7 +215,7 @@ body {
     margin: 0 auto;
     font-family: "Katibeh", cursive;
     z-index: 3;
-    background: rgba(71, 112, 237, 0.59);
+    background: rgba(71, 112, 237, 0.13);
     border-radius: 50px;
     padding-bottom: 10px;
     margin-top:1%;
@@ -214,7 +238,7 @@ body {
     margin: 0 auto;
     font-family: "Katibeh", cursive;
     z-index: 3;
-    background: rgba(71, 112, 237, 0.59);
+    background: rgba(71, 112, 237, 0.13);
     border-radius: 50px;
     padding-bottom: 10px;
     margin-top:1%;
@@ -233,7 +257,7 @@ body {
     margin-block: 40px;
     color: #ddd5bf;
     z-index: 3;
-    background: rgba(71, 112, 237, 0.59);
+    background: rgba(71, 112, 237, 0.13);
     border-radius: 50px;
 
     @media screen and (max-width: 768px) {
@@ -265,7 +289,7 @@ body {
     z-index: 3;
     border-radius: 50px;
     color:red;
-    background: rgba(71, 112, 237, 0.59);
+    background: rgba(71, 112, 237, 0.13);
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -289,6 +313,18 @@ body {
         display: block;
         padding-top: 8%;
     }
+}
+
+.arrow{
+    color:#4cd137;
+    font-size: 108px;
+    padding-right:290px;
+}
+
+.arrow2{
+    color:#4cd137;
+    font-size: 108px;
+    padding-left:690px;
 }
 
 

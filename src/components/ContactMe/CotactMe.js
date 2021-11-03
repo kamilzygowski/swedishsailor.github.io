@@ -11,7 +11,7 @@ class ContactMe extends React.Component{
                     <input type='email' name='email' className="input" placeholder='Your email' required></input>
                     {/*<input type='tel' className="input" placeholder='Your phone'></input>*/}
                     <textarea className="textarea" name='text' placeholder='Your message' required></textarea>
-                    <input type='submit' className="submit" value='Send'></input>
+                    <input type='submit' className="submit" value='Submit'></input>
                 </form>
                 
             </section>

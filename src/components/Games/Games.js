@@ -15,11 +15,11 @@ class Games extends React.Component {
                             <h3 className="gamesDescriptionHeader"> Salve Devito </h3>
                             <img className="descriptionImg" src="https://i.postimg.cc/FH745khH/salvedevito3.png" alt=""></img>
                             <p className="gamesDescriptionText"> MMO RPG game, which tells us story about magic world of late middle ages, where you can find magical animals, demonic powers, mythical creatures and much, much more...
-                                {/*Salve devito is a mmo rpg game. Choose your character's class, get your weapon and go ahead, explore, fish, 
-                            solve puzzles, every single thing you see is a key to something.. Don't even think about it too long just go and ask Sphinx about everyhting!*/}</p>
+                                </p>
                             <p className="gamesDescriptionText2"> Click the image for more info</p>
                         </div>
-                    </Button>
+        </Button>
+                        
                     <Button to="/dimensioneye" className="game"><img className="gamesImg2, gamesImg" src="https://i.postimg.cc/XNKHKWMj/dimension-eye-logo.png" alt=""></img>
                         <div className="gamesDescription + second">
                             <br />

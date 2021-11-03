@@ -57,6 +57,9 @@ class PixelArt extends React.Component {
                             <img className="carouselImg" src="https://i.postimg.cc/NMvFNKF9/treasure.gif" alt=""></img> 
                         </div>
                         <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/J01nLSbR/south-old-sorc.gif" alt=""></img> 
+                        </div>
+                        <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/c4DtFQGm/lampkanascienna.gif" alt=""></img>
                         </div>
                         <div className="carouselDiv">
@@ -75,13 +78,10 @@ class PixelArt extends React.Component {
                             <img className="carouselImg" src="https://i.postimg.cc/jdxw0nXy/floating-Enemy.gif" alt=""></img> 
                         </div>
                         <div className="carouselDiv">
-                            <img className="carouselImg" src="https://i.postimg.cc/vH01Q8qk/shoot-Explode.gif" alt=""></img> 
+                            <img className="carouselImg" src="https://i.postimg.cc/Y900PqsN/bullet.gif" alt=""></img> 
                         </div>
                         <div className="carouselDiv">
-                            <img className="carouselImg" src="https://i.postimg.cc/t47s708T/waves.gif" alt=""></img> 
-                        </div>
-                        <div className="carouselDiv">
-                            <img className="carouselImg" src="https://i.postimg.cc/J01nLSbR/south-old-sorc.gif" alt=""></img> 
+                            <img className="carouselImg" src="https://i.postimg.cc/bv3dL23N/wodade.gif" alt=""></img> 
                         </div>
 
                     </Carousel>

@@ -44,15 +44,18 @@
 }
 
 .submit {
-    height:55px;
-    width:150px;
-    margin-left:40%;
+    height:75px;
+    width:170px;
+    margin:auto auto;
     background:#32ff7e;
     border-radius: 45px;
     font-size: 21px;
     transition:0.5s;
     font-weight: 500;
-    color:#fff;
+    color:#000;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 38px;
+    border:none;
 
     @media screen and (max-width: 768px) {
         margin-top: 25px;
@@ -63,7 +66,7 @@
 
 .submit:hover {
     background-color: #f368e0;
-    color:#000;
+    color:#fff;
 }
 
 
@@ -72,13 +75,20 @@
     text-align: center;
     margin-bottom: 3%;
     font-size: 21px;
-    background: #111;
+    background: linear-gradient(90deg, rgba(85,230,193,1) 6%, rgba(80,224,198,1) 14%, rgba(27,156,252,1) 50%, rgba(39,161,248,1) 59%, rgba(248,239,186,1) 84%);
     color:#fff;
     border-radius: 10px;
     resize:none;
     outline: none;
     font-family: Arial;
     padding:20px 40px;
+    border:none;
+}
+
+.textarea::placeholder{
+    color:#fff;
+    font-family: 'Katibeh', cursive;
+    font-size: 38px;
 }
 
 
@@ -87,10 +97,17 @@
     text-align: center;
     margin-bottom: 3%;
     font-size: 21px;
-    background: #111;
+    background: linear-gradient(90deg, rgba(85,230,193,1) 6%, rgba(80,224,198,1) 14%, rgba(27,156,252,1) 50%, rgba(39,161,248,1) 59%, rgba(248,239,186,1) 84%);
     color:#fff;
     border-radius: 10px;
     outline: none;
+    border:none;
+}
+
+.input::placeholder{
+    color:#fff;
+    font-family: 'Katibeh', cursive;
+    font-size: 38px;
 }
 
 .input:focus {
