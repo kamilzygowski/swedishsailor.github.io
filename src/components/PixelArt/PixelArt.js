@@ -30,6 +30,9 @@ class PixelArt extends React.Component {
                             <img className="carouselImg" src="https://i.postimg.cc/3JfwsSWH/north-sorc.gif" alt=""></img> 
                         </div>
                         <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/SNbSWcz9/crate-v1.png" alt=""></img>
+                        </div>
+                        <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/K86zWfqn/sd-tp.gif" alt=""></img>
                         </div>
                         <div className="carouselDiv">
@@ -42,6 +45,12 @@ class PixelArt extends React.Component {
                             <img className="carouselImg" src="https://i.postimg.cc/DwHJTnZ4/mana-fluid1.png" alt=""></img>
                         </div>
                         <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/65V9zTdm/doors.gif" alt=""></img>
+                        </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/W1n1ptzk/depo-sqm1.png" alt=""></img>
+                        </div>
+                        <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/X7DXf491/sd-poison-Shape.gif" alt=""></img>
                         </div>
                         <div className="carouselDiv">
@@ -52,6 +61,9 @@ class PixelArt extends React.Component {
                         </div>
                         <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/QxZr17dw/kamyczki.png" alt=""></img>
+                        </div>
+                        <div className="carouselDiv">
+                            <img className="carouselImg" src="https://i.postimg.cc/rF5pbfLg/gora-trawka.png" alt=""></img>
                         </div>
                         <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/NMvFNKF9/treasure.gif" alt=""></img> 
