@@ -150,7 +150,7 @@
 }
 
 .gamesImg:hover {
-    opacity: 0.2;
+    box-shadow: inset 0 0 85px #4a69bd, 0 0 85px #82ccdd;
 }
 
 .gamesImg:hover + .gamesDescription {
