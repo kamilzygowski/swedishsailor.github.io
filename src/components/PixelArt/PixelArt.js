@@ -13,7 +13,7 @@ class PixelArt extends React.Component {
                     <br />
                     <h1 className="pixelartHeader"> PIXEL ART </h1>
                     <br />
-                    <Carousel showArrows={true} className={carouselStyles + "carousel"}  swipeable={true} autoPlay={3500} infiniteLoop={true}>
+                    <Carousel showArrows={true} className={carouselStyles + "carousel"}  swipeable={true} autoPlay={1500} infiniteLoop={true}>
                         <div className="carouselDiv">
                             <img className="carouselImg" src="https://i.postimg.cc/85MGX7Ln/de-coin.gif" alt=""></img>
                         </div>

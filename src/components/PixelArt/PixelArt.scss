@@ -1,81 +1,79 @@
-
-
 .pixelArt {
-  background: url('https://i.postimg.cc/DySwqtPX/pexels-isabelle-taylor-1447367.jpg');
+  background: url("https://i.postimg.cc/DySwqtPX/pexels-isabelle-taylor-1447367.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-    height: 715px;
-    width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 715px;
+  width: 100%;
 
-    @media screen and (max-width:768px){
-      height: 655px;
-    }
-   
+  @media screen and (max-width: 768px) {
+    height: 655px;
+  }
 }
 
 .pixelartHeader {
-    text-align: center;
-    margin-top: 0;
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 36px;
-    font-weight: 200;
-    //border-bottom: solid 2px #ff6b6b;
-    width: 6%;
-    margin-left: 44.5%;
-    width: 160px;
-    color:#fff;
-    margin:0 auto;
+  text-align: center;
+  margin-top: 0;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 36px;
+  font-weight: 200;
+  //border-bottom: solid 2px #ff6b6b;
+  width: 6%;
+  margin-left: 44.5%;
+  width: 160px;
+  color: #fff;
+  margin: 0 auto;
 
-    @media screen and (max-width:768px){
-      margin-left: 27.8%;
-    }
+  @media screen and (max-width: 768px) {
+    margin-left: 27.8%;
+  }
 }
 
-.pixelartHeader{
-    color: #FFF;
-    text-shadow: 0 0 5px blue, 0 0 10px white;
-    animation: glow 6s linear infinite;
+.pixelartHeader {
+  color: #fff;
+  text-shadow: 0 0 5px blue, 0 0 10px white;
+  animation: glow 6s linear infinite;
 }
 
 @keyframes glow {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-    }
+  0% {
+    filter: hue-rotate(0deg);
   }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
 
 .carouselDiv {
-    width: 128px;
-    margin: 0 auto;
-    margin-bottom: 3%;
-    margin-top: 85px;
-    
-    @media screen and (max-width:768px){
-      height: 185px;
-      margin-left: 31.3%;
-    }
+  width: 128px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  margin-top: 85px;
+
+  @media screen and (max-width: 768px) {
+    height: 185px;
+    margin-left: 31.3%;
+  }
 }
 
 .pixelArtContainer {
 }
 
 .carousel {
-    position: relative;
-    width: 80%;
-    text-align: center;
-    margin:auto auto;
-    margin-top: 25px;
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: auto auto;
+  margin-top: 25px;
 
-    @media screen and (max-width:768px){
-      margin-top: 25px;
-      margin-left: 20px;
-    }
+  @media screen and (max-width: 768px) {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
 }
 
 .carouselImg {
-
 }
-

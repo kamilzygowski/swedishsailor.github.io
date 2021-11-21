@@ -1,5 +1,5 @@
 .contactMeSectiom {
-    height:680px;
+    height: 680px;
     width: 100%;
     display: flex;
     text-align: center;
@@ -8,6 +8,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .form {
@@ -17,10 +20,9 @@
     width: 45%;
 
     @media screen and (max-width: 768px) {
-        margin-top:33px;
+        margin-top: 33px;
         margin-left: 12.8%;
         width: 75%;
-        
     }
 }
 
@@ -28,88 +30,101 @@
     //border-bottom: solid 2px #ff6b6b;
     margin-top: 2%;
     text-align: center;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: "Luckiest Guy", cursive;
     font-size: 36px;
     font-weight: 200;
     width: 11%;
-    margin-left:43.8%;
+    margin-left: 43.8%;
     color: #fff;
     margin-bottom: 2%;
 
     @media screen and (max-width: 768px) {
         margin-left: 22.8%;
         width: 55%;
-        
     }
 }
 
 .submit {
-    height:75px;
-    width:170px;
-    margin:auto auto;
-    background:#32ff7e;
+    height: 75px;
+    width: 170px;
+    margin: auto auto;
+    background: #32ff7e;
     border-radius: 45px;
     font-size: 21px;
-    transition:0.5s;
+    transition: 0.5s;
     font-weight: 500;
-    color:#000;
-    font-family: 'Luckiest Guy', cursive;
+    color: #000;
+    font-family: "Luckiest Guy", cursive;
     font-size: 38px;
-    border:none;
+    border: none;
 
     @media screen and (max-width: 768px) {
         margin-top: 25px;
         margin-left: 21.8%;
-        width: 55%; 
-        font-size:24px;      
+        width: 55%;
+        font-size: 24px;
     }
 }
 
 .submit:hover {
     background-color: #f368e0;
-    color:#fff;
+    color: #fff;
 }
 
-
-.textarea{
+.textarea {
     height: 120px;
     text-align: center;
     margin-bottom: 3%;
     font-size: 21px;
-    background: linear-gradient(90deg, rgba(85,230,193,1) 6%, rgba(80,224,198,1) 14%, rgba(27,156,252,1) 50%, rgba(39,161,248,1) 59%, rgba(248,239,186,1) 84%);
-    color:#fff;
+    background: linear-gradient(
+        90deg,
+        rgba(85, 230, 193, 1) 6%,
+        rgba(80, 224, 198, 1) 14%,
+        rgba(27, 156, 252, 1) 50%,
+        rgba(39, 161, 248, 1) 59%,
+        rgba(248, 239, 186, 1) 84%
+    );
+    color: #fff;
     border-radius: 10px;
-    resize:none;
+    resize: none;
     outline: none;
     font-family: Arial;
-    padding:20px 40px;
-    border:none;
+    padding: 20px 40px;
+    border: none;
     margin-top: 25px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
 }
 
-.textarea::placeholder{
-    color:#fff;
-    font-family: 'Katibeh', cursive;
+.textarea::placeholder {
+    color: #fff;
+    font-family: "Katibeh", cursive;
     font-size: 38px;
 }
-
 
 .input {
     height: 45px;
     text-align: center;
     margin-bottom: 3%;
     font-size: 21px;
-    background: linear-gradient(90deg, rgba(85,230,193,1) 6%, rgba(80,224,198,1) 14%, rgba(27,156,252,1) 50%, rgba(39,161,248,1) 59%, rgba(248,239,186,1) 84%);
-    color:#fff;
+    background: linear-gradient(
+        90deg,
+        rgba(85, 230, 193, 1) 6%,
+        rgba(80, 224, 198, 1) 14%,
+        rgba(27, 156, 252, 1) 50%,
+        rgba(39, 161, 248, 1) 59%,
+        rgba(248, 239, 186, 1) 84%
+    );
+    color: #fff;
     border-radius: 10px;
     outline: none;
-    border:none;
+    border: none;
     margin-top: 25px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
 }
 
-.input::placeholder{
-    color:#fff;
-    font-family: 'Katibeh', cursive;
+.input::placeholder {
+    color: #fff;
+    font-family: "Katibeh", cursive;
     font-size: 38px;
 }
 
@@ -130,9 +145,9 @@
 
 @keyframes glow {
     0% {
-      filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg);
     }
     100% {
-      filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
     }
-  }
+}
