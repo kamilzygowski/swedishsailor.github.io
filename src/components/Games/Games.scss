@@ -129,6 +129,8 @@
     border-radius: 9%;
     display: inline-block;
 
+
+
     @media screen and (max-width: 1440px) {
         width: 1000px;
         left:190%;
@@ -157,6 +159,7 @@
     display: block;
     position: relative;
     height: 280px;
+    display:none;  // DELTE THIS TO SHOW UP THE GAME DESCRIPTIONS
 
     @media screen and (max-width:968px){
         display:none;

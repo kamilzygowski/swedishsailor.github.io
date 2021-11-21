@@ -30,6 +30,7 @@ const Home = () => {
                     <AboutMe></AboutMe>
                     {/*<img className="gameImg} src="https://i.postimg.cc/SK9yPQrZ/games.png"></img>*/}
                     <PixelArt className="PixelArt"></PixelArt>
+                    
                     <Games className="Games"></Games>
                     {/*<div className={styles.hoverable}><div className={styles.first}></div><div className={styles.second}></div><div className={styles.third}></div><div className={styles.fourth}></div></div>
                     <div className={styles.extend}></div>*/}
