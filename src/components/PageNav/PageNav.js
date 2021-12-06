@@ -31,9 +31,9 @@ const PageNav = ({ toggle }) => (
             <NavItem>
                 <NavLinks to ='/games' smooth={true}> Games </NavLinks>
             </NavItem>
-            <NavItem>
+            {/*<NavItem>
                 <NavLinks to ='/projects' smooth={true}> Projects </NavLinks>
-            </NavItem>
+            </NavItem>*/}
             <NavItem>
                 <NavLinks to ='/contact' smooth={true}> Contact </NavLinks>
             </NavItem>
