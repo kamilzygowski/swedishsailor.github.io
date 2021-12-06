@@ -18,7 +18,7 @@ justify-content: center;
 align-items: center;
 font-size: 43px;
 position: sticky;
-top:0;
+top:-4px;
 z-index:10;
 
 @media screen and (max-width: 960px) {

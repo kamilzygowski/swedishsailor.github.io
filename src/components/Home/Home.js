@@ -10,6 +10,7 @@ import Socials from '../Socials/Socials';
 import Sidebar from '../Sidebar/Sidebar';
 import PageNav from '../PageNav/PageNav';
 import AboutMe from '../AboutMe/AboutMe';
+import Projects from '../Projects/Projects';
 
 
 
@@ -35,6 +36,7 @@ const Home = () => {
                     {/*<div className={styles.hoverable}><div className={styles.first}></div><div className={styles.second}></div><div className={styles.third}></div><div className={styles.fourth}></div></div>
                     <div className={styles.extend}></div>*/}
                     <div className="bigger"></div>
+                    {/*<Projects/>*/}
                     <ContactMe></ContactMe>
                     <Footer></Footer>
                 </div>

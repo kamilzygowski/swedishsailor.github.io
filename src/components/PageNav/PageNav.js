@@ -32,6 +32,9 @@ const PageNav = ({ toggle }) => (
                 <NavLinks to ='/games' smooth={true}> Games </NavLinks>
             </NavItem>
             <NavItem>
+                <NavLinks to ='/projects' smooth={true}> Projects </NavLinks>
+            </NavItem>
+            <NavItem>
                 <NavLinks to ='/contact' smooth={true}> Contact </NavLinks>
             </NavItem>
         </NavMenu>
